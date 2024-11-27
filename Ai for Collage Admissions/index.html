@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI for College Admissions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>College Admission Predictor</h1>
+        <form id="admission-form">
+            <label for="gpa">GPA (0-4):</label>
+            <input type="number" id="gpa" min="0" max="4" required><br>
+
+            <label for="sat">SAT Score:</label>
+            <input type="number" id="sat" min="400" max="1600" required><br>
+
+            <label for="extracurricular">Extracurricular Activities (0-5):</label>
+            <input type="number" id="extracurricular" min="0" max="5" required><br>
+
+            <button type="submit">Predict Admission Chances</button>
+        </form>
+
+        <div id="result">
+            <!-- Result will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
