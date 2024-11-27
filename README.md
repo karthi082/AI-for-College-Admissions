@@ -1,0 +1,1 @@
+The AI for College Admissions project is a web-based tool that helps students estimate their chances of getting admitted to a college based on factors like GPA, SAT scores, and extracurricular activities. Using a simple prediction algorithm, the system evaluates the user's inputs and provides an estimated admission probability.
